@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+}
+
+#clear{
+    width: 212px;
+}
+
+#display{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
+
+#full-display{
+    display: flex;
+}
+
+#delete{
+    height: 60px;
+    margin-left: 2px;
+    background-color: red;
+}
+
+#btn-sum{
+    background-color: lightblue;
+}
